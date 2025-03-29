@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   // Configuration pour le déploiement sur GitHub Pages
-  base: '/', 
+  base: '/JsonForm-Vanilla', 
 
   plugins: [react()],
 
