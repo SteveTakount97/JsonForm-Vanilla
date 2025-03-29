@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { JsonForms } from '@jsonforms/react';
 import { vanillaRenderers, vanillaCells  } from '@jsonforms/vanilla-renderers';
 import { schema, uischema } from './data/schema'; // Importe ton schema et uischema
+import './App.css';
 
 const MyForm = () => {
   const [data, setData] = useState({});
@@ -16,6 +17,7 @@ const MyForm = () => {
         renderers={vanillaRenderers}
         cells={vanillaCells}
         onChange={({ data }) => setData(data)}
+        
       />
     </div>
   );

@@ -108,31 +108,48 @@ export const schema = {
         "elements": [
           {
             "type": "Control",
-            "scope": "#/properties/user/properties/a08"
+            "scope": "#/properties/user/properties/a08",
+            "options": {
+              "classNames": "form-group"
+            }
           },
           {
             "type": "Control",
             "scope": "#/properties/user/properties/a09",
             "options": {
-              "multi": true
+              "multi": true,
+              "classNames": "form-group"
             }
           }
         ],
-        "label": "My User"
+        "label": "My User",
+        "options": {
+          "classNames": "form-section"
+        }
       },
       {
         "type": "Group",
         "elements": [
           {
             "type": "Control",
-            "scope": "#/properties/item/properties/s01"
+            "scope": "#/properties/item/properties/s01",
+            "options": {
+              "classNames": "form-group"
+            }
           },
           {
             "type": "Control",
-            "scope": "#/properties/item/properties/i01"
+            "scope": "#/properties/item/properties/i01",
+            "options": {
+              "classNames": "form-group"
+            }
           }
         ],
-        "label": "Profile"
+        "label": "Profile",
+        "options": {
+          "classNames": "form-section"
+        }
       }
     ]
   }
+  
