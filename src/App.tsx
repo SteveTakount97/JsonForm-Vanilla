@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { JsonForms } from '@jsonforms/react';
 import { vanillaRenderers, vanillaCells  } from '@jsonforms/vanilla-renderers';
-import { schema, uischema } from './data/schema'; // Importe ton schema et uischema
+import { schema, uischema } from './data/schema'; 
 import './App.css';
 
 const MyForm = () => {
