@@ -109,23 +109,16 @@ export const schema = {
           {
             "type": "Control",
             "scope": "#/properties/user/properties/a08",
-            "options": {
-              "classNames": "form-group"
-            }
           },
           {
             "type": "Control",
             "scope": "#/properties/user/properties/a09",
             "options": {
               "multi": true,
-              "classNames": "form-group"
             }
           }
         ],
-        "label": "My User",
-        "options": {
-          "classNames": "form-section"
-        }
+        "label": "My User"
       },
       {
         "type": "Group",
@@ -133,23 +126,18 @@ export const schema = {
           {
             "type": "Control",
             "scope": "#/properties/item/properties/s01",
-            "options": {
-              "classNames": "form-group"
-            }
+          },
+          {
+            "type": "Control",
+            "scope": "#/properties/item/properties/p02",
           },
           {
             "type": "Control",
             "scope": "#/properties/item/properties/i01",
-            "options": {
-              "classNames": "form-group"
-            }
           }
         ],
-        "label": "Profile",
-        "options": {
-          "classNames": "form-section"
-        }
+        "label": "Profile"
       }
     ]
-  }
+  };
   
